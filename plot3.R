@@ -1,6 +1,9 @@
 
 ## plot3.R
 ## read in Electric Power Consumption dataset
+## read in Electric Power Consumption dataset from the following link
+## unzip it and place it in your working directory
+## https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
 
 df1<-read.delim("household_power_consumption.txt", header = TRUE, sep = ";", quote = "\"",dec = ".", fill = TRUE, comment.char = "", na.strings="?")
 
