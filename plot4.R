@@ -15,7 +15,7 @@ df1sub<-df1sub[complete.cases(df1sub),]
 DateTime<-paste(df1sub$Date,df1sub$Time)
 DateTime<-strptime(DateTime,"%d/%m/%Y %H:%M:%S")
 
-png("plot4.png",width=504,height=504)
+png("plot4.png",width=480,height=480)
 
 ##set for 4 plots
 par(mfrow = c(2, 2),cex.lab=0.9)
